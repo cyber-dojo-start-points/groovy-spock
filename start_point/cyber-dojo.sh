@@ -8,5 +8,5 @@
 SPECS=($(ls *Spec.groovy | cut -d '.' -f 1))
 for SPEC in "${SPECS[@]}"
 do
-  groovy -cp /groovy/spock-core-2.0-M2-groovy-3.0.jar ${SPEC}
+  groovy -cp /groovy/spock-core-2.4-M1-groovy-4.0.jar ${SPEC}
 done

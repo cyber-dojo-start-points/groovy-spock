@@ -1,6 +1,6 @@
 {
-  "image_name": "cyberdojofoundation/groovy_spock:4310491",
-  "display_name": "Groovy, Spock",
+  "image_name": "cyberdojofoundation/groovy_spock:3f31945",
+  "display_name": "Groovy 4.0.9, Spock 2.4",
   "visible_filenames": [
     "HikerSpec.groovy",
     "Hiker.groovy",
