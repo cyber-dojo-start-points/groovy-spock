@@ -1,11 +1,12 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/groovy_spock:6e1460e",
-  "display_name": "Groovy 4.0.23, Spock 2.4",
+  "display_name": "Groovy 5.0.0, Spock 2.4",
+  "image_name": "ghcr.io/cyber-dojo-languages/groovy_spock:06dbcd8",
   "visible_filenames": [
     "HikerSpec.groovy",
     "Hiker.groovy",
     "cyber-dojo.sh"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "filename_extension": [
     ".groovy"
   ],
