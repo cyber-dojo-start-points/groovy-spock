@@ -1,5 +1,13 @@
 {
   "display_name": "Groovy 5.0.0, Spock 2.4",
+  "language": [
+    "Groovy",
+    "5.0.0"
+  ],
+  "test_framework": [
+    "Spock",
+    "2.4"
+  ],
   "image_name": "ghcr.io/cyber-dojo-languages/groovy_spock:06dbcd8",
   "visible_filenames": [
     "HikerSpec.groovy",
