@@ -8,7 +8,7 @@
     "Spock",
     "2.4"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/groovy_spock:06dbcd8",
+  "image_name": "ghcr.io/cyber-dojo-languages/groovy_spock:f80f8e7",
   "visible_filenames": [
     "HikerSpec.groovy",
     "Hiker.groovy",
