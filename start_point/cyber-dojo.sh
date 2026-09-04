@@ -1,5 +1,5 @@
 
-# Each [test] press starts a JVM, and starting it is most of the wait rather
+# Each test run starts a JVM, and starting it is most of the wait rather
 # than a part of it: it loads groovy's compiler, spock's runtime and the test
 # launcher from the jars before a single spec runs. The image holds an AOT cache
 # recorded when it was built, holding the classes that JVM loads in the form the
