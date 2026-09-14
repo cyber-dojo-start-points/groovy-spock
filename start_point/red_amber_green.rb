@@ -7,7 +7,13 @@ lambda { |stdout,stderr,status|
   passed, aborted, failed, skipped = match.captures.map(&:to_i)
   # A kata holding no specs at all runs nothing, which is not something passing.
   return :amber if passed + aborted + failed + skipped == 0
-  return :green if failed.zero?
+  if failed.zero?
+    # A feature marked @Ignore is counted as skipped rather than run, so a kata
+    # whose only feature is ignored arrives here having proved nothing. Asking
+    # for a pass, rather than for no failures, is what keeps it out of green.
+    return :amber if passed.zero?
+    return :green
+  end
   # Spock renders a failed condition itself, so the => line under each failure
   # begins with its own wording. Code that broke reads two ways there. An
   # exception leaving a spec shows the throwable, which java prints as its class

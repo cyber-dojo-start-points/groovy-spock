@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "^\\| +Possible solutions: sixTimesSeven\\(\\)$"
+  ],
+  "match_counts": {
+    "^JUnit5 launcher: passed=0, aborted=0, failed=1, skipped=0, time=": 1,
+    "^    => Condition failed with Exception:$": 1,
+    "^douglas\\.answer\\(\\) == 42$": 1,
+    "^ +Caused by: groovy\\.lang\\.MissingMethodException: No signature of method: sixTimesSevn for class: Hiker is applicable for argument types: \\(\\) values: \\[\\]$": 1,
+    "Unexpected input": 0
+  },
+  "truncated": false
+}

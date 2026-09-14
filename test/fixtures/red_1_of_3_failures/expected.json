@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^JUnit5 launcher: passed=2, aborted=0, failed=1, skipped=0, time=": 1,
+    "^Failures \\(1\\):$": 1,
+    "^  Spock:HikerSpec:life the universe and everything$": 1,
+    "^    => Condition not satisfied:$": 1,
+    "^new Hiker\\(\\)\\.answer\\(\\) == 42$": 1,
+    "^\\| +54 +false$": 1,
+    "^  Spock:HikerSpec:the answer is even$": 0
+  },
+  "truncated": false
+}

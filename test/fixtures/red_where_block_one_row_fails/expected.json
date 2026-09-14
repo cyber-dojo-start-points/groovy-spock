@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^JUnit5 launcher: passed=3, aborted=0, failed=1, skipped=0, time=": 1,
+    "^Failures \\(1\\):$": 1,
+    "^  Spock:HikerSpec:the answer multiplied by #n is #product:the answer multiplied by 3 is 125$": 1,
+    "^    => Condition not satisfied:$": 1,
+    "^new Hiker\\(\\)\\.multiplied\\(n\\) == product$": 1,
+    "^\\| +126 +3 +\\| +125$": 1
+  },
+  "truncated": false
+}

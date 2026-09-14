@@ -1,0 +1,7 @@
+{
+  "match_counts": {
+    "^JUnit5 launcher: passed=0, aborted=0, failed=0, skipped=0, time=": 1,
+    "^Failures \\(": 0
+  },
+  "truncated": false
+}

@@ -1,0 +1,8 @@
+{
+  "matches": [ "^debug: i is 0$", "^debug: i is 1$" ],
+  "match_counts": {
+    "^JUnit5 launcher: ": 0,
+    "^Failures \\(": 0
+  },
+  "truncated": true
+}

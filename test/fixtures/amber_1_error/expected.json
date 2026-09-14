@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^JUnit5 launcher: passed=0, aborted=0, failed=1, skipped=0, time=": 1,
+    "^    => Condition failed with Exception:$": 1,
+    "^new Hiker\\(\\)\\.answer\\(\\) / hikers == 42$": 1,
+    "^ +Caused by: java\\.lang\\.ArithmeticException: Division by zero$": 1,
+    "Condition not satisfied": 0
+  },
+  "truncated": false
+}

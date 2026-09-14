@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "^JUnit5 launcher: passed=0, aborted=0, failed=2, skipped=0, time=": 1,
+    "^Failures \\(2\\):$": 1,
+    "^    => Condition failed with Exception:$": 1,
+    "^    => Condition not satisfied:$": 1,
+    "^ +Caused by: java\\.lang\\.ArithmeticException: Division by zero$": 1
+  },
+  "truncated": false
+}
