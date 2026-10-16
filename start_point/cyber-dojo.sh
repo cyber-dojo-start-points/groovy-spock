@@ -28,4 +28,6 @@ SOURCES=$(find . -name '*.groovy')
 # so a JVM would start for each of them, and starting one costs more than
 # running the specs in it. /run_spec_files.groovy comes from the image and
 # explains which of the files below it runs as specs.
-groovy -cp /groovy/spock-core-2.4-groovy-5.0.jar /run_spec_files.groovy ${SOURCES}
+# The image holds one spock jar, named for its version, and that version moves
+# with each rebuild, so the jar is found rather than named.
+groovy -cp $(echo /groovy/spock-core-*.jar) /run_spec_files.groovy ${SOURCES}
